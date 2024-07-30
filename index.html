@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandra Cinematics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Chandra Cinematics</h1>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Videographer for Hire</h2>
+            <p>Transforming your visions into breathtaking visual stories that captivate!</p>
+        </section>
+        <section id="packages">
+            <h2>Epic Packages</h2>
+            <div class="packages-container">
+                <div class="package">
+                    <h3>Film Frenzy</h3>
+                    <p>Rp.8.500k/per project</p>
+                    <p>Unleash your story with our stunning film production services!</p>
+                    <button class="book-now" data-package="Film Frenzy">Book Now</button>
+                </div>
+                <div class="package">
+                    <h3>Documentary Delight</h3>
+                    <p>Rp.2.500k/per project</p>
+                    <p>Capture reality with our engaging documentary filmmaking expertise!</p>
+                    <button class="book-now" data-package="Documentary Delight">Book Now</button>
+                </div>
+                <div class="package">
+                    <h3>Ad Adventure</h3>
+                    <p>Rp.8.000k/per project</p>
+                    <p>Boost your brand with our eye-catching advertising videos!</p>
+                    <button class="book-now" data-package="Ad Adventure">Book Now</button>
+                </div>
+                <div class="package">
+                    <h3>Ultimate Package</h3>
+                    <p>Rp.18.000k/per project</p>
+                    <p>Get everything you need for a complete cinematic experience!</p>
+                    <button class="book-now" data-package="Ultimate Package">Book Now</button>
+                </div>
+            </div>
+        </section>
+        <section id="form-section" class="hidden">
+            <h2>Booking Form</h2>
+            <form id="booking-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <input type="hidden" id="package" name="package">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Chandra Haris Mulyana</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
